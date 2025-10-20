@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxuryCar.id</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="luxcar.css">
+
+</head>
+<body>
+    <header class="custom-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#" onclick="showPage('home'); return false;">
+                    <i class="fas fa-car"></i> LuxuryCar.id
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showPage('home'); return false;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showPage('catalog'); return false;">Katalog Mobil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showPage('contact'); return false;">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="pageContainer"></div>
+
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5><i class="fas fa-car"></i> LuxuryCar.id</h5>
+                    <p>Dealer mobil terpercaya dengan koleksi lengkap dan pelayanan terbaik untuk Anda.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Menu Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" onclick="showPage('home'); return false;">Home</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('catalog'); return false;">Katalog Mobil</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('contact'); return false;">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Kontak Kami</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Jatisari Permai IV, Waru, Sidoarjo</p>
+                    <p><i class="fas fa-phone"></i> +62 821-4125-3901</p>
+                    <p><i class="fas fa-envelope"></i> luxurycar@gmail.com</p>
+                    <p><i class="fas fa-user-circle"></i> Desty Putri Puspitasari</p>
+                </div>
+            </div>
+            <hr style="border-color: rgba(210, 193, 182, 0.3);">
+            <div class="text-center">
+                <p class="mb-0">&copy;LuxuryCar.id</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="luxcar.js"></script>
+</body>
+</html>
